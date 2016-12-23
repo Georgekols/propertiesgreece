@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<div class="houses">
+  <h1>Houses</h1>
+
+ <div class="container-fluid">
+    <div class="row" id="house">
+      <% @houses.each do |house| %>
+        <div class="col-sm-2 col-md-4">
+          <h1><%= house.name %></h1>
+          <div class="houseprice">
+            $<%= house.price %>
+          </div>
+          <%= image_tag(house.image_url, class: "img-responsive") %>
+          <p><%= house.description %></p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+<!--  <tbody>
+    <% @houses.each do |house| %>
+      <tr>
+        <td><%= house.name %></td>
+        <td><%= house.description %></td>
+        <td><%= house.image_url %></td>
+        <td><%= house.price %></td>
+        <td><%= link_to 'Show', house %></td>
+        <td><%= link_to 'Edit', edit_house_path(house) %></td>
+        <td><%= link_to 'Destroy', house, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New House', new_house_path %> -->
+
+</div>
