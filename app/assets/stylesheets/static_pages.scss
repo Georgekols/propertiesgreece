@@ -1,3 +1,56 @@
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar-default {
+  background-color: #cce6ff;
+}
+
+.navbar-nav {
+  font-size: medium;
+}
+
+.homepage {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.img_greece {
+  margin-bottom: 60px;
+}
+
+.about {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.contact {
+  color: #F0FFFF;
+  background-image: image-url("contact");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: 0;
+  margin-top: 50px;
+}
+
+.contact_intro {
+  margin-left: 50px;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
